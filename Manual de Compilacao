@@ -1,5 +1,0 @@
-Compilar
-g++ tests/funcional/main.cpp -Wall -o bin/main
-
-Executar
-./bin/main
