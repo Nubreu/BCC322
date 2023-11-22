@@ -1,77 +1,92 @@
 #ifndef MODEL_HPP
 #define MODEL_HPP
+
 #include "System.hpp"
 #include "Flow.hpp"
 #include <iostream>
 #include <vector>
 #include <algorithm>
 #include <iomanip>
+#include <string>
 using namespace std;
+
+/**
+ * @class Model
+ * @brief Represents a simulation model with systems and flows.
+ */
 class Model
 {
-	vector <System*> system_container;
-	vector <Flow*> flow_container;
+    std::vector<System*> system_container; /**< Container for storing System objects. */
+    std::vector<Flow*> flow_container; /**< Container for storing Flow objects. */
 
 public:
 
-	Model(){};
-	Model(Model &model){
-		flow_container = model.flow_container;
-		system_container = model.system_container;
-	}
-	void add(System* system);
-	void add(Flow* flow);
-	void execute(int t_start, int t_end,int shift);
-	void report();
-	const vector<Flow*>& getFlowContainer() const {
-		return flow_container;
-	}
-	void setFlowContainer(const vector<Flow*>& flowContainer);
-	const vector<System*>& getSystemContainer() const {
-		return system_container;
-	}
-	void setSystemContainer(const vector<System*>& systemContainer);
+    /**
+     * @brief Default constructor for the Model class.
+     */
+    Model();
 
-	Model& operator = (const Model& model)
-	{
-		if(this == &model)
-			return *this;
-		flow_container.clear();
-		system_container.clear();
-		flow_container = model.flow_container;
-		system_container = model.system_container;
-		return *this;
-	}
+    /**
+     * @brief Copy constructor for the Model class.
+     * @param model Another Model object to copy.
+     */
+    Model(Model &model);
+
+    /**
+     * @brief Generates a report based on the current state of the model.
+     */
+    void report();
+
+    /**
+     * @brief Adds a Flow object to the model.
+     * @param flow Pointer to the Flow object to be added.
+     */
+    void add(Flow* flow);
+
+    /**
+     * @brief Adds a System object to the model.
+     * @param system Pointer to the System object to be added.
+     */
+    void add(System* system);
+
+    /**
+     * @brief Executes the simulation model within a specified time range.
+     * @param t_start Start time of the simulation.
+     * @param t_end End time of the simulation.
+     * @param shift Time shift for the simulation.
+     */
+    void execute(int t_start, int t_end, int shift);
+
+    /**
+     * @brief Sets the container of Flow objects for the model.
+     * @param flowContainer Vector containing Flow objects.
+     */
+    void setFlowContainer(const std::vector<Flow*>& flowContainer);
+
+    /**
+     * @brief Sets the container of System objects for the model.
+     * @param systemContainer Vector containing System objects.
+     */
+    void setSystemContainer(const std::vector<System*>& systemContainer);
+
+    /**
+     * @brief Gets the container of Flow objects in the model.
+     * @return Reference to the container of Flow objects.
+     */
+    const std::vector<Flow*>& getFlowContainer() const;
+
+    /**
+     * @brief Gets the container of System objects in the model.
+     * @return Reference to the container of System objects.
+     */
+    const std::vector<System*>& getSystemContainer() const;
+
+    /**
+     * @brief Assignment operator overload for the Model class.
+     * @param model Another Model object to assign.
+     * @return Reference to the assigned Model object.
+     */
+    Model& operator = (const Model& model);
 };
-
-
-
-void Model:: add(Flow* flow)
-{
-	flow_container.push_back(flow);
-}
-
-
-////////////////////////////////////
-
-void Model::add(System* system)
-{
-	system_container.push_back(system);
-}
-
-
-void Model::setFlowContainer(const vector<Flow*>& flowContainer) {
-	flow_container = flowContainer;
-}
-
-void Model:: report()
-{	int i=0;
-	for_each(system_container.begin(),system_container.end(),[&i](System* s){ cout << s->getName() << ": " << fixed << setprecision(4) << s->getStock() << "\t"; i++;});
-	cout << endl;
-}
-
-void Model::setSystemContainer(const vector<System*>& systemContainer) {
-	system_container = systemContainer;
-}
 
 #endif /* MODEL_HPP_ */
