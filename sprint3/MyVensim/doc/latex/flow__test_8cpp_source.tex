@@ -1,0 +1,41 @@
+\doxysection{flow\+\_\+test.\+cpp}
+\hypertarget{flow__test_8cpp_source}{}\label{flow__test_8cpp_source}\index{tests/funcional/classTest/flow\_test.cpp@{tests/funcional/classTest/flow\_test.cpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ "{}flow\_test.hpp"{}}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00002}00002\ }
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00003}00003\ \textcolor{comment}{//\ Construtores\ do\ exponential\ flow}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00004}\mbox{\hyperlink{class_exponential_flow_a1f981db78e6635fd9837648960d8dc8d}{00004}}\ \mbox{\hyperlink{class_exponential_flow_a1f981db78e6635fd9837648960d8dc8d}{ExponentialFlow::ExponentialFlow}}():\mbox{\hyperlink{class_flow}{Flow}}()\ \{\}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00005}\mbox{\hyperlink{class_exponential_flow_afa187d9fecf2c45bcff0901445f73cb3}{00005}}\ \mbox{\hyperlink{class_exponential_flow_a1f981db78e6635fd9837648960d8dc8d}{ExponentialFlow::ExponentialFlow}}(\textcolor{keywordtype}{string}\ name,\ \textcolor{keywordtype}{double}\ stock,\ \mbox{\hyperlink{class_system}{System}}*\ source,\ \mbox{\hyperlink{class_system}{System}}*\ target)}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00006}00006\ \ \ \ \ :\ \mbox{\hyperlink{class_flow}{Flow}}(source,\ target,\ name)\ \{\}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00008}00008\ \textcolor{comment}{//\ sobrescrita\ do\ run\ para\ o\ exponential\ flow}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00009}\mbox{\hyperlink{class_exponential_flow_a70ef60f970078d41590bc31785ec2d2b}{00009}}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_exponential_flow_a70ef60f970078d41590bc31785ec2d2b}{ExponentialFlow::run}}()\{}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00010}00010\ \ \ \ \ \textcolor{keywordflow}{return}\ 0.01\ *\ \mbox{\hyperlink{class_flow_a9e5eb1cd7777f3f17e23e18fa6b38aed}{getSource}}()-\/>\mbox{\hyperlink{class_system_a158186097234a6c5b33f1c7437f7ac7c}{getStock}}();}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00011}00011\ \}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00012}00012\ }
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00013}00013\ }
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00015}00015\ \textcolor{comment}{//\ Construtores\ do\ logistical\ flow}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00016}\mbox{\hyperlink{class_logistical_flow_a3fd4357cffc1717ace3a8466665b6440}{00016}}\ LogisticalFlow\ ::LogisticalFlow():\mbox{\hyperlink{class_flow}{Flow}}()\ \{\}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00017}\mbox{\hyperlink{class_logistical_flow_a7c127eedf4daa73e82ee100ce9d08166}{00017}}\ LogisticalFlow\ ::LogisticalFlow(\textcolor{keywordtype}{string}\ name,\ \textcolor{keywordtype}{double}\ stock,\ \mbox{\hyperlink{class_system}{System}}*\ source,\ \mbox{\hyperlink{class_system}{System}}*\ target)}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00018}00018\ \ \ \ \ :\ \mbox{\hyperlink{class_flow}{Flow}}(source,\ target,\ name)\ \{\}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00019}00019\ }
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00020}00020\ \textcolor{comment}{//\ sobrescrita\ do\ run\ para\ o\ logistical\ flow}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00021}\mbox{\hyperlink{class_logistical_flow_aa380b703376d79abc5de059b18540e41}{00021}}\ \textcolor{keywordtype}{double}\ LogisticalFlow\ ::run()\{}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00022}00022\ \ \ \ \ \textcolor{keywordtype}{double}\ stock\ =\ getTarget()-\/>getStock();}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00023}00023\ \ \ \ \ \textcolor{keywordflow}{return}\ 0.01\ *\ stock\ *\ (1\ -\/\ stock\ /\ 70);}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00024}00024\ \}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00026}00026\ }
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00027}00027\ \textcolor{comment}{//\ Construtores\ do\ complex\ flow}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00028}\mbox{\hyperlink{class_complex_flow_a5842ce02ac6229830dbe8895b61891cf}{00028}}\ ComplexFlow\ ::ComplexFlow():\mbox{\hyperlink{class_flow}{Flow}}()\ \{\}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00029}\mbox{\hyperlink{class_complex_flow_a25f6b550e1f1ccf5ade2b5c9cf14baa1}{00029}}\ ComplexFlow\ ::ComplexFlow(\textcolor{keywordtype}{string}\ name,\ \textcolor{keywordtype}{double}\ stock,\ \mbox{\hyperlink{class_system}{System}}*\ source,\ \mbox{\hyperlink{class_system}{System}}*\ target)}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00030}00030\ \ \ \ \ :\ \mbox{\hyperlink{class_flow}{Flow}}(source,\ target,\ name)\ \{\}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00032}00032\ \textcolor{comment}{//\ sobrescrita\ do\ run\ para\ o\ logistical\ flow}}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00033}\mbox{\hyperlink{class_complex_flow_a86d4a74a9c3f8c962d85e559311e0dcb}{00033}}\ \textcolor{keywordtype}{double}\ ComplexFlow\ ::run()\{}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00034}00034\ \ \ \ \ \textcolor{keywordflow}{return}\ 0.01\ *\ getSource()-\/>getStock();}
+\DoxyCodeLine{\Hypertarget{flow__test_8cpp_source_l00035}00035\ \}}
+
+\end{DoxyCode}

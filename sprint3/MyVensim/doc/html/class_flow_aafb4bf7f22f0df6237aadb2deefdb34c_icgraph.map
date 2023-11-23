@@ -1,0 +1,5 @@
+<map id="Flow::setName" name="Flow::setName">
+<area shape="rect" id="Node000001" title="Sets the name of the flow." alt="" coords="159,5,277,31"/>
+<area shape="rect" id="Node000002" href="$class_flow.html#ac8068c6348b4d9f51e8553259f6eb4ab" title="Updates the flow with a new source, target, and name." alt="" coords="5,5,111,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,21,111,21,111,15,145,15"/>
+</map>

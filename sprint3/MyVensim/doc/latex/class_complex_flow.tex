@@ -1,0 +1,132 @@
+\doxysection{Complex\+Flow Class Reference}
+\hypertarget{class_complex_flow}{}\label{class_complex_flow}\index{ComplexFlow@{ComplexFlow}}
+
+
+Complex flow class derived from flow.  
+
+
+
+
+{\ttfamily \#include $<$flow\+\_\+test.\+hpp$>$}
+
+
+
+Inheritance diagram for Complex\+Flow\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_complex_flow__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Complex\+Flow\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_complex_flow__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_complex_flow_a5842ce02ac6229830dbe8895b61891cf}{Complex\+Flow}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{class_complex_flow}{Complex\+Flow} default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_complex_flow_a25f6b550e1f1ccf5ade2b5c9cf14baa1}{Complex\+Flow}} (string \mbox{\hyperlink{class_flow_a687d8bbbb87d6c1965e272768167dcac}{name}}, double stock, \mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_flow_a963ca162995d112f0f30322e2bb9de63}{source}}, \mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_flow_a87be88d9bae4e927b29205faabeaf387}{target}})
+\begin{DoxyCompactList}\small\item\em \doxylink{class_complex_flow}{Complex\+Flow} default constructor. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_complex_flow_a86d4a74a9c3f8c962d85e559311e0dcb}{run}} ()
+\begin{DoxyCompactList}\small\item\em run method override. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_flow}{Flow}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_flow_a325d284a50ca3274b126b21f5c39b9af}{\texorpdfstring{$\sim$}{\string~}\+Flow}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{class_flow}{Flow} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_flow_ac9975e144e606242748197798e87dd32}{Flow}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for the \doxylink{class_flow}{Flow} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_flow_a7e0ba8024aa731b72dfa41a7f5513aa0}{Flow}} (\mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_flow_a963ca162995d112f0f30322e2bb9de63}{source}}, \mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_flow_a87be88d9bae4e927b29205faabeaf387}{target}}, std\+::string \mbox{\hyperlink{class_flow_a687d8bbbb87d6c1965e272768167dcac}{name}})
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_flow}{Flow} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_flow_a27af85e46a53aa5ff8c8016f012b0c24}{Flow}} (const \mbox{\hyperlink{class_flow}{Flow}} \&flow)
+\begin{DoxyCompactList}\small\item\em Copy constructor for the \doxylink{class_flow}{Flow} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_flow_a250fc53158862fc0db77b323a33e48a3}{set\+Source}} (\mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_flow_a963ca162995d112f0f30322e2bb9de63}{source}})
+\begin{DoxyCompactList}\small\item\em Sets the source system of the flow. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_flow_a9e5eb1cd7777f3f17e23e18fa6b38aed}{get\+Source}} (void)
+\begin{DoxyCompactList}\small\item\em Gets the source system of the flow. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_flow_ab69903880174e5bcdc0d815b5de7b3e0}{set\+Target}} (\mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_flow_a87be88d9bae4e927b29205faabeaf387}{target}})
+\begin{DoxyCompactList}\small\item\em Sets the target system of the flow. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_flow_a1983e842eb5cb66c8e5abf463c8efae0}{get\+Target}} (void)
+\begin{DoxyCompactList}\small\item\em Gets the target system of the flow. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_flow_aafb4bf7f22f0df6237aadb2deefdb34c}{set\+Name}} (std\+::string \mbox{\hyperlink{class_flow_a687d8bbbb87d6c1965e272768167dcac}{name}})
+\begin{DoxyCompactList}\small\item\em Sets the name of the flow. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_flow_a9c00ce3eed7cb2cccddad17be0613003}{get\+Name}} (void)
+\begin{DoxyCompactList}\small\item\em Gets the name of the flow. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_flow_a47f7a0b4b34a8bab2c38b323e588f2ec}{connect}} (\mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_flow_a963ca162995d112f0f30322e2bb9de63}{source}}, \mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_flow_a87be88d9bae4e927b29205faabeaf387}{target}})
+\begin{DoxyCompactList}\small\item\em Connects the flow between a source and target system with a specified name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_flow_ac8068c6348b4d9f51e8553259f6eb4ab}{update}} (\mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_flow_a963ca162995d112f0f30322e2bb9de63}{source}}, \mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_flow_a87be88d9bae4e927b29205faabeaf387}{target}}, std\+::string \mbox{\hyperlink{class_flow_a687d8bbbb87d6c1965e272768167dcac}{name}})
+\begin{DoxyCompactList}\small\item\em Updates the flow with a new source, target, and name. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{class_flow_aa1ad5f820c1f10f9e19c555af8bf69f2}{equation}} ()=0
+\begin{DoxyCompactList}\small\item\em Pure virtual function representing the equation of the flow. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_flow}{Flow}} \& \mbox{\hyperlink{class_flow_a6d7fa924063215269af2d61b7425cc22}{operator=}} (const \mbox{\hyperlink{class_flow}{Flow}} \&flow)
+\begin{DoxyCompactList}\small\item\em Assignment operator overload for the \doxylink{class_flow}{Flow} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_flow}{Flow}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_flow_a963ca162995d112f0f30322e2bb9de63}{source}}
+\item 
+\mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_flow_a87be88d9bae4e927b29205faabeaf387}{target}}
+\item 
+std\+::string \mbox{\hyperlink{class_flow_a687d8bbbb87d6c1965e272768167dcac}{name}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Complex flow class derived from flow. 
+
+Despite its name, it represents the simplest interaction beetween systems, subtracting a constant stock from the source \doxylink{class_system}{System} and adding it to the target one. Its only purpose is to implement the pure virutal method \doxylink{class_complex_flow_a86d4a74a9c3f8c962d85e559311e0dcb}{run()}, from flow. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_complex_flow_a5842ce02ac6229830dbe8895b61891cf}\label{class_complex_flow_a5842ce02ac6229830dbe8895b61891cf} 
+\index{ComplexFlow@{ComplexFlow}!ComplexFlow@{ComplexFlow}}
+\index{ComplexFlow@{ComplexFlow}!ComplexFlow@{ComplexFlow}}
+\doxysubsubsection{\texorpdfstring{ComplexFlow()}{ComplexFlow()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Complex\+Flow\+::\+Complex\+Flow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxylink{class_complex_flow}{Complex\+Flow} default constructor. 
+
+Calls the flow default constructor to instance a derived class object. \Hypertarget{class_complex_flow_a25f6b550e1f1ccf5ade2b5c9cf14baa1}\label{class_complex_flow_a25f6b550e1f1ccf5ade2b5c9cf14baa1} 
+\index{ComplexFlow@{ComplexFlow}!ComplexFlow@{ComplexFlow}}
+\index{ComplexFlow@{ComplexFlow}!ComplexFlow@{ComplexFlow}}
+\doxysubsubsection{\texorpdfstring{ComplexFlow()}{ComplexFlow()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Complex\+Flow\+::\+Complex\+Flow (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{double}]{stock,  }\item[{\mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*}}]{source,  }\item[{\mbox{\hyperlink{class_system}{System}} \texorpdfstring{$\ast$}{*}}]{target }\end{DoxyParamCaption})}
+
+
+
+\doxylink{class_complex_flow}{Complex\+Flow} default constructor. 
+
+Calls the flow complete constructor to instance a derived class object. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_complex_flow_a86d4a74a9c3f8c962d85e559311e0dcb}\label{class_complex_flow_a86d4a74a9c3f8c962d85e559311e0dcb} 
+\index{ComplexFlow@{ComplexFlow}!run@{run}}
+\index{run@{run}!ComplexFlow@{ComplexFlow}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily double Complex\+Flow\+::run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+run method override. 
+
+Takes a set stock defined by a simple math equation from the source \doxylink{class_system}{System} and returns it. Currently the same equation as the exponential\+Flow implementation.
+
+\begin{DoxyReturn}{Returns}
+returns the stock it got from the equation, used to update the Systems stocks. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+tests/funcional/class\+Test/\mbox{\hyperlink{flow__test_8hpp}{flow\+\_\+test.\+hpp}}\item 
+tests/funcional/class\+Test/\mbox{\hyperlink{flow__test_8cpp}{flow\+\_\+test.\+cpp}}\end{DoxyCompactItemize}

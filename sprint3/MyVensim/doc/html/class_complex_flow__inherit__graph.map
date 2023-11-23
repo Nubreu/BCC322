@@ -1,0 +1,5 @@
+<map id="ComplexFlow" name="ComplexFlow">
+<area shape="rect" id="Node000001" title="Complex flow class derived from flow." alt="" coords="13,595,207,744"/>
+<area shape="rect" id="Node000002" href="$class_flow.html" title="Represents a flow between two systems." alt="" coords="5,5,215,547"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,561,113,594,107,594,107,561"/>
+</map>

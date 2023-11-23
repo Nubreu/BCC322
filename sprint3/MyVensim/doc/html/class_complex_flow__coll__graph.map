@@ -1,0 +1,12 @@
+<map id="ComplexFlow" name="ComplexFlow">
+<area shape="rect" id="Node000001" title="Complex flow class derived from flow." alt="" coords="74,1089,267,1239"/>
+<area shape="rect" id="Node000002" href="$class_flow.html" title="Represents a flow between two systems." alt="" coords="66,539,275,1040"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,1054,173,1089,168,1089,168,1054"/>
+<area shape="rect" id="Node000003" href="$class_system.html" title="Represents a system with stock and a name." alt="" coords="5,133,195,461"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,461,135,522,130,523,121,462"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="71,5,129,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="103,71,103,117,97,117,97,71"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="185,5,236,71"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="222,70,227,94,227,109,221,286,209,462,204,522,199,522,204,461,216,285,221,109,221,95,217,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="193,72,180,96,169,119,164,117,175,93,188,70"/>
+</map>
