@@ -1,0 +1,7 @@
+<map id="System" name="System">
+<area shape="rect" id="Node000001" title="Represents a system with stock and a name." alt="" coords="5,133,195,461"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="32,5,91,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,71,68,109,69,117,64,117,63,110,60,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="115,5,165,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,71,131,117,125,116,132,70"/>
+</map>

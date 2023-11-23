@@ -1,0 +1,7 @@
+<map id="Flow::connect" name="Flow::connect">
+<area shape="rect" id="Node000001" title="Connects the flow between a source and target system with a specified name." alt="" coords="5,31,116,56"/>
+<area shape="rect" id="Node000002" href="$class_flow.html#a250fc53158862fc0db77b323a33e48a3" title="Sets the source system of the flow." alt="" coords="164,5,288,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,32,150,27,151,32,117,38"/>
+<area shape="rect" id="Node000003" href="$class_flow.html#ab69903880174e5bcdc0d815b5de7b3e0" title="Sets the target system of the flow." alt="" coords="166,55,286,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,49,153,54,152,59,116,54"/>
+</map>

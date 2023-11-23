@@ -1,0 +1,7 @@
+<map id="Model" name="Model">
+<area shape="rect" id="Node000001" title="Represents a simulation model with systems and flows." alt="" coords="29,133,287,560"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,151,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,71,86,109,87,117,82,118,81,110,76,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="175,5,301,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,72,220,118,215,117,227,70"/>
+</map>

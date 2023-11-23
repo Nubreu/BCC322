@@ -1,0 +1,9 @@
+<map id="Flow" name="Flow">
+<area shape="rect" id="Node000001" title="Represents a flow between two systems." alt="" coords="227,5,436,547"/>
+<area shape="rect" id="Node000002" href="$class_complex_flow.html" title="Complex flow class derived from flow." alt="" coords="5,595,199,744"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,469,147,596,143,593,217,467"/>
+<area shape="rect" id="Node000003" href="$class_exponential_flow.html" title="Exponential flow class derived from flow." alt="" coords="223,602,440,737"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="334,561,334,602,329,602,329,561"/>
+<area shape="rect" id="Node000004" href="$class_logistical_flow.html" title="Logistical flow class derived from flow." alt="" coords="464,602,681,737"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="446,457,534,600,530,603,441,460"/>
+</map>

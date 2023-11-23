@@ -1,0 +1,8 @@
+Compilar:
+g++ tests/funcional/main_funcional_tests.cpp src/*.cpp tests/funcional/funcional_tests.cpp -Wall -o bin/main_funcional_tests;
+
+Executar:
+bin/main_funcional_tests
+
+Compilar:
+g++ tests/funcional/main_funcional_tests.cpp src/*.cpp tests/funcional/funcional_tests.cpp -Wall -o bin/main_funcional_tests; ./bin/main_funcional_tests

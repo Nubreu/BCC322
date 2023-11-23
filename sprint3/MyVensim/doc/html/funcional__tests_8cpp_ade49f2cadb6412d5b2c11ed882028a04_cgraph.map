@@ -1,0 +1,9 @@
+<map id="logisticalTest" name="logisticalTest">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,112,80"/>
+<area shape="rect" id="Node000002" href="$class_model.html#ab69613bde0ace81c92bbf519660ccb2c" title="Adds a Flow object to the model." alt="" coords="181,5,275,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,52,169,32,171,37,104,57"/>
+<area shape="rect" id="Node000003" href="$class_model.html#adc16327559fbba540b163cc8d26289cd" title="Executes the simulation model within a specified time range." alt="" coords="167,55,289,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="112,65,153,65,153,70,112,70"/>
+<area shape="rect" id="Node000004" href="$class_system.html#a158186097234a6c5b33f1c7437f7ac7c" title="Gets the stock of the system." alt="" coords="160,104,296,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="104,77,171,97,169,102,102,83"/>
+</map>

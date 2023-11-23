@@ -1,0 +1,7 @@
+<map id="System::operator=" name="System::operator=">
+<area shape="rect" id="Node000001" title="Assignment operator overload for the System class." alt="" coords="5,31,151,56"/>
+<area shape="rect" id="Node000002" href="$class_system.html#a29dd9ba3320e94630a999f1334519692" title="Sets the name of the system." alt="" coords="199,5,337,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,31,185,26,186,32,151,36"/>
+<area shape="rect" id="Node000003" href="$class_system.html#a754d48870295c0ff0f79ff4b7054aa7b" title="Sets the stock of the system." alt="" coords="201,55,335,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,50,187,54,187,60,150,55"/>
+</map>
